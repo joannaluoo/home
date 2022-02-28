@@ -1,0 +1,92 @@
+body {
+	text-align: center;
+}
+h1 {
+	background-color: RGB(255, 220, 220);
+	line-height: 200%;
+	text-align: center;
+}
+#top {
+	font-size: 30pt;
+}
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightpink;
+}
+.li {
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+/* Change the link color on navigation bar to black on hover */
+li a:hover {
+	background-color: RGB(255,235,235);
+	color: black;
+}
+/*changing the active page color on navigation bar to dark pink*/
+#active {
+  background-color: RGB(255, 100, 150);
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+	width: 100%;
+}
+td {
+	text-align: center;
+}
+/*sizing the images to fit in the warm and cold colors table*/
+.chartimgs {
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+}
+/*centering the list*/
+.reglist {
+	display: table;
+	margin: auto;
+}
+#img1 {
+	width: 300px;
+}
+#ryb {
+	width: 300px;
+}
+#tts {
+	width: 400px;
+	padding: 30px;
+}
+.satimgs {
+	padding: 30px;
+}
+p {
+	margin: 100px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 14pt;
+}
+#wallimg {
+	width: 400px;
+}
+h2 {
+	font-size: 27pt;
+	background-color: RGB(255, 230, 230);
+}
+h3 {
+	font-size: 22pt;
+	background-color: RGB(255, 240, 240);
+}
+h4 {
+	font-size: 17pt;
+	background-color: RGB(255, 250, 250);
+}
